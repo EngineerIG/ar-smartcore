@@ -10,7 +10,7 @@ services:
     restart: unless-stopped
     environment:
       - VIRTUAL_HOST=ar.smartcore.pe
-      - VIRTUAL_PORT=8080
+      - VIRTUAL_PORT=3000
       - LETSENCRYPT_HOST=ar.smartcore.pe
       - LETSENCRYPT_EMAIL=jcanahuirev@gmail.com
     networks:
